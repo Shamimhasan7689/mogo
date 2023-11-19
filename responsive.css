@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+    .about-us-img {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .team-profile {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .work-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-between;
+        flex-basis: 400px;
+        align-self: 33%;
+        flex-wrap: wrap;
+    }
+    .menu {
+        /* display: flex; */
+        justify-content: space-between;
+        align-items: center;
+        display: none;
+    }
+    .menu-nav {
+        /* position: fixed; */
+        width: 100%;
+        z-index: 999;
+        position: relative;
+    }
+
+
+  }
